@@ -1,0 +1,14 @@
+{
+    "name": "wpjason/wc-baipaga",
+    "description": "Integração Woocommerce e BAI gateway",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Matos",
+            "email": "carlos@wp-helpers.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
