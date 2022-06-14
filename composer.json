@@ -10,5 +10,24 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "BancoBai\\": "src/",
+            "BancoBai\\Client\\": "src/bancobai/",
+            "BancoBai\\Client\\Enum\\": "src/bancobai/enum/",
+            "BancoBai\\Client\\Service\\": "src/bancobai/service/",
+            "BancoBai\\Client\\Struct\\": "src/bancobai/struct/"
+        }
+    },
+    "require-dev": {
+        "laminas/laminas-code": "^3.1.0",
+        "wsdltophp/packagegenerator": "3.x-dev"
+    },
+    "require": {
+        "ext-dom": "*",
+        "ext-mbstring": "*",
+        "ext-soap": "*",
+        "ext-json": "*",
+        "wsdltophp/packagebase": "2.2.3"
+    }
 }
