@@ -1,6 +1,7 @@
 <?php
 
 namespace BancoBai\Client;
+use WsdlToPhp\PackageBase\AbstractSoapClientBase as Soap;
 
 /**
  * Class which returns the class map definition
@@ -11,11 +12,11 @@ class Client
 
     public function __construct()
     {
-
+        $this->options = $this->getOptions();
     }
 
-    protected function getUrl()
+    private function getOptions()
     {
-
+        
     }
 }
